@@ -22,6 +22,7 @@ public class HomePage extends DriverScript
 	//instead of driver.findelement use FindBy
 	@FindBy(xpath ="//a[@class = 'userProfileLink username '] ") WebElement textUserLoggedIn;
 	@FindBy(id="logoutLink") WebElement linkLogout;
+	@FindBy(xpath = "//a[@class = 'content tasks']") WebElement menuTask;
 	
 	//*************************************Page Initialization*******************************************
 	//create constructor
@@ -44,5 +45,9 @@ public class HomePage extends DriverScript
 	    linkLogout.click();
 	}
 	
+	public void clickTask()
+	{
+		menuTask.click();
+	}
 	
 }
