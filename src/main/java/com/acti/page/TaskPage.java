@@ -14,7 +14,7 @@ public class TaskPage extends DriverScript
 	@FindBy(xpath = "//div[@class='item createNewCustomer']") WebElement itemcreatenewcustomer;
 	@FindBy(xpath = "(//input[@placeholder='Enter Customer Name'])[2]") WebElement textboxCustomerName;
 	@FindBy(xpath = "//textarea[@placeholder='Enter Customer Description']") WebElement textareaCustomerDescription;
-	@FindBy(xpath = "//div[text()='Create Customer']'") WebElement buttoncreatecustomer;
+	@FindBy(xpath = "//div[text()='Create Customer']") WebElement buttoncreatecustomer;
 	@FindBy(xpath = "//span[@class='innerHtml']") WebElement msgSuccess;
 	
 	
