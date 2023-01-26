@@ -19,7 +19,7 @@ public class TaskPageTests extends BaseTest
 	//Logout
 	
 	
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void testCreateCustomer()
 	{
 		logger = report.createTest("Test Create Customer");
